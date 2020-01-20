@@ -1,7 +1,7 @@
 import pandas as pd
 y=1
 n=1
-df = pd.read_csv('INvideos.csv', sep = ',')
+df = pd.read_csv('dataset/INvideos.csv', sep = ',')
 print(df)
 for d in df.description:
 	if ('yes' in str(d)):
